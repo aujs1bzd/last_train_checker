@@ -52,12 +52,12 @@ class _MyHomePageState extends State<MyHomePage> {
     return SafeArea(
     child: Scaffold(
       appBar: AppBar(
-       
+        centerTitle: true,  //中央寄せ
         title: const Text('設定変更',style: TextStyle(color: Colors.white),),
         backgroundColor: Colors.black12,
         
       ),
-      backgroundColor: Colors.black12,
+      backgroundColor: Color.fromARGB(110, 180, 177, 177),
 
 
 
