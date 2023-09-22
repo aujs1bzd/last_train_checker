@@ -56,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: const Text('終電まで'),
         
       ),
- backgroundColor: Colors.white,
+ backgroundColor: Colors.black12,
 
 
 
