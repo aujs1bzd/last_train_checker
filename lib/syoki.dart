@@ -53,7 +53,13 @@ class _MyHomePageState extends State<MyHomePage> {
     child: Scaffold(
       appBar: AppBar(
         centerTitle: true,  //中央寄せ
-        title: const Text('設定変更',style: TextStyle(color: Colors.white),),
+        title: const Text(
+          '設定変更',
+          style: TextStyle(
+             fontFamily: 'sans-serif',
+                  fontSize: 50,
+          color: Colors.white
+          ),),
         backgroundColor: Colors.black12,
         
       ),
@@ -83,6 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
+        
       ), 
     ),
     );
